@@ -6,6 +6,12 @@
   
 }
 
+
+
+
+
+
+
 /* Navbar */
 .navbar {
   background-color: #fff;
@@ -67,6 +73,14 @@
   gap: 10px;
 }
 
+
+
+
+
+
+
+
+
 /* Hero Section */
 
 
@@ -102,6 +116,9 @@
   width: 570px;
   height: 355px;
 }
+
+
+
 
 
 
@@ -158,21 +175,29 @@
   border-radius: 5px;
 }
 
-/* Plant Lover */
 
+
+
+
+
+
+/* Plant Lover */
+.plant-lover{
+     margin: 210.13px 150px  133.87px 150px;
+
+}
 .plant-container {
-  /* flex-wrap: wrap; */
+  
   display: flex;
+  
   justify-content: space-between;
   max-width: 1140px;
-  margin: 210.13px 150px 150px 133.87px;
 }
 
 .plant-img {
   max-width: 540px;
   height: 597px;
 }
-
 
 
 .badge {
@@ -200,11 +225,43 @@
   font-weight: 400;
   font-size: 22px;
   color: rgba(0, 0, 0, 0.5);
-  /* padding-bottom: 20px; */
-  
-
+ 
 }
 
+
+/* Deal Section */
+
+
+
+.deal-container {
+  max-width: 1440px;
+  height: 1138px;
+  
+}
+
+.deal-text{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  
+}
+
+.deal-section-h3{
+   font-family: "Noto Serif", serif;
+   font-weight: 700;
+   font-size: 50px;
+
+}
+.deal-text-description{
+  max-width: 888px;
+  font-weight: 400;
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.5);
+
+}
 
 
 
@@ -317,31 +374,6 @@
   height: 24px;
 }
 
-
-/* Deal Section */
-.deal {
-  background-color: #ffe8ed;
-  padding: 60px 20px;
-}
-
-.deal-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.deal-text h3 {
-  font-size: 28px;
-}
-
-.deal-text p {
-  color: #6b6b6b;
-}
-
-.deal-img img {
-  width: 300px;
-}
 
 /* Responsive Design */
 @media (max-width: 768px) {
