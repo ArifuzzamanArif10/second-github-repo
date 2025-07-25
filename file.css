@@ -9,89 +9,113 @@
 /* Navbar */
 .navbar {
   background-color: #fff;
-  padding: 20px 0;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+ 
 }
 
 .container {
-  width: 90%;
-  max-width: 1200px;
-  margin: auto;
+  width: 100%;
+  max-width: 1140px;
+  height: 71px;
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 30px 150px 120px 150px;
+  gap: auto;
 }
 
 
 
-.logo span {
-  color: #E55473;
+.logo-image  {
+  width: 135px;
+  height: 82px;
 }
 
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 20px;
-  padding: 0;
+  gap: 35px;
+  padding: 22px 0;
 }
 
 .nav-links li a {
   text-decoration: none;
-  color: #272727;
+  
   font-weight: bold;
+  
+}
+.shop-1{
+    font-weight: 400;
+    font-size: 16px;
+    color: #8987A1;
+}
+.home-1{
+    font-weight: 700;
+    font-size: 16px;
+    color: #252432;
+}
+.about-1{
+    font-weight: 400;
+    font-size: 16px;
+    color: #8987A1;
 }
 
-.cart {
+.cart{
   display: flex;
   align-items: center;
+  /* justify-content: center; */
   gap: 10px;
 }
 
 /* Hero Section */
-.hero {
-  background-color: #fceef1;
-  padding: 60px 0;
-}
 
-.hero .container {
-  flex-direction: row;
-  flex-wrap: wrap;
+
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+    height: 461px;
+    max-width: 1140px;
+    
+    margin: 120px 150px;
+    
 }
 
 .hero-text {
-  flex: 1;
-  padding-right: 20px;
+  height: 299px;
+  max-width: 570px;
+  
+}
+.hero-title{
+    font-family: "Noto Serif", serif;
+    font-weight: 700;
+    font-size: 65px;
+    /* gap: 13px; */
+    padding-bottom: 3px;
+}
+.hero-description{
+    font-weight: 400;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.hero-img {
+
+  width: 570px;
+  height: 355px;
 }
 
-.hero-text h2 {
-  font-size: 40px;
-  color: #272727;
-}
 
-.hero-text p {
-  color: #6b6b6b;
-  margin: 20px 0;
-}
-
-.hero-img img {
-  width: 100%;
-  max-width: 400px;
-}
-
-.btn {
-  background-color: #E55473;
-  color: #fff;
-  padding: 12px 30px;
-  border: none;
-  border-radius: 5px;
-  text-decoration: none;
-  font-weight: bold;
-}
 
 /* Featured Flowers */
 .features {
-  padding: 80px 0;
+    max-width: 1140px;
+    height: 1186.88px;
+  gap: 49px;
   text-align: center;
+  margin: 110px 150px 210.13px 150px;
+}
+
+.section-title{
+    
 }
 
 .section-title h3 {
