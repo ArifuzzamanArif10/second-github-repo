@@ -159,10 +159,6 @@
 }
 
 /* Plant Lover */
-.plant-lover {
-  /* background-color: #fff0f5; */
-  /* padding: 80px 20px; */
-}
 
 .plant-container {
   /* flex-wrap: wrap; */
@@ -197,7 +193,7 @@
 .plant-section-text {
   width: 540px;
   height: 521px;
-  gap: 0px;
+  
   
 }
 .plant-section-description{
